@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="/assets/fonts/static/noto-sans.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <!-- <link rel="stylesheet" href="/assets/css/dark.css"> -->
+
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+ 
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__left">
+      <!-- <img class="header__logo" src="/assets/images/logo.svg" alt="Extensions logo"> -->
+      <img class="header__logo" src="/assets/images/logo.svg" alt="Extensions logo">
+    </div>
+    <div class="header__right">
+      <button class="header__btn" data-theme="light">
+        <!-- <img class="button__logo" src="/assets/images/icon-moon.svg" alt="icon sun"> -->
+        <img class="button__logo" src="/assets/images/icon-moon.svg" alt="icon moon">
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <nav class="navigation">
+      <div class="navigation__left">
+        <p class="navigation__title">Extensions List</p>
+      </div>
+
+      <div class="navigation__right">
+        <button class="navigation__btn navigation__btn--active" id="show-all-btn">All</button>
+        <button class="navigation__btn" id="show-active-btn">Active</button>
+        <button class="navigation__btn" id="show-inactive-btn">Inactive</button>
+      </div>
+    </nav>
+
+    <section class="extensions">
+
+      <!-- <div class="extension">
+        <div class="extension__top">
+          <div>
+            <img src="/assets/images/logo-devlens.svg" alt="logo devlens">
+          </div>
+
+          <div>
+            <h2 class="extension__title">Devlens</h2>
+            <p class="extension__description">Quickly inspect page layouts and visualize element boundaries.</p>
+          </div>
+        </div>        
+
+        <div class="extension__bottom">
+          <button class="extension__btn">Remove</button>
+          
+          <label class="toggle" for="toggle">
+            <input class="toggle__input" type="checkbox" id="toggle">
+            <div class="toggle__circle"></div>
+          </label>
+        </div>
+      </div> -->
+
+    </section>
+
+
+  </main>
+
+  
+
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/dark-mode.js"></script>
+
+  <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below -->
+
+  
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>

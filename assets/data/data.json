@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "DevLens",
+    "description": "Quickly inspect page layouts and visualize element boundaries.",
+    "image": "logo-devlens.svg"
+  },
+  {
+    "id": 2,
+    "name": "StyleSpy",
+    "description": "Instantly analyze and copy CSS from any webpage element.",
+    "image": "logo-style-spy.svg"
+  },
+  {
+    "id": 3,
+    "name": "SpeedBoost",
+    "description": "Optimizes browser resource usage to accelerate page loading.",
+    "image": "logo-speed-boost.svg"
+  },
+  {
+    "id": 4,
+    "name": "JSONWizard",
+    "description": "Formats, validates, and prettifies JSON responses in-browser.",
+    "image": "logo-json-wizard.svg"
+  },
+  {
+    "id": 5,
+    "name": "TabMaster Pro",
+    "description": "Organizes browser tabs into groups and sessions.",
+    "image": "logo-tab-master-pro.svg"
+  },
+  {
+    "id": 6,
+    "name": "ViewportBuddy",
+    "description": "Simulates various screen resolutions directly within the browser.",
+    "image": "logo-viewport-buddy.svg"
+  },
+  {
+    "id": 7,
+    "name": "Markup Notes",
+    "description": "Enables annotation and notes directly onto webpages for collaborative debugging.",
+    "image": "logo-markup-notes.svg"
+  },
+  {
+    "id": 8,
+    "name": "GridGuides",
+    "description": "Overlay customizable grids and alignment guides on any webpage.",
+    "image": "logo-grid-guides.svg"
+  },
+  {
+    "id": 9,
+    "name": "Palette Picker",
+    "description": "Instantly extracts color palettes from any webpage.",
+    "image": "logo-palette-picker.svg"
+  },
+  {
+    "id": 10,
+    "name": "LinkChecker",
+    "description": "Scans and highlights broken links on any page.",
+    "image": "logo-link-checker.svg"
+  },
+  {
+    "id": 11,
+    "name": "DOM Snapshot",
+    "description": "Capture and export DOM structures quickly.",
+    "image": "logo-dom-snapshot.svg"
+  },
+  {
+    "id": 12,
+    "name": "ConsolePlus",
+    "description": "Enhanced developer console with advanced filtering and logging.",
+    "image": "logo-console-plus.svg"
+  }
+]
